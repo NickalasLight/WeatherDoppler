@@ -31,7 +31,7 @@ public class ReturnDopplerImg extends AsyncTask<ImageView, Drawable, Drawable> {
         try {
             //TODO: remove below line, for testing only. Build method to return url.
 
-            url = "https://tilecache.rainviewer.com/v2/radar/1561737000/1024/2/39.290386/-76.612190/2/1_1.png";
+            url = "https://tilecache.rainviewer.com/v2/radar/1561750800/1024/2/39.290386/-76.612190/2/1_1.png";
             InputStream is = (InputStream) new URL(url).getContent();
             Drawable d = Drawable.createFromStream(is, "src name");
             return d;

@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Mapbox.getInstance(this, "pk.eyJ1Ijoibmlja2FsYXMiLCJhIjoiY2p2eTJkOXI2MGJmdDQ4cGMxMHllZzQxYSJ9.MGT4wEduz99RGkCIwKTbCw");
-        setContentView(R.layout.testlayout);
+        setContentView(R.layout.activity_main);
 
 
-        ImageView myImageView = findViewById(R.id.imageView);
+        ImageView myImageView = findViewById(R.id.dopplerimageView);
 
         ReturnDopplerImg myDop = new ReturnDopplerImg();
         myDop.execute(myImageView);
@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
        //myImageView.setImageDrawable(myDop.LoadImageFromWebOperations(""));
 
 
-    }
 
 
 
-/*
+
+
 
 
         mapView = findViewById(R.id.mapView);
@@ -97,6 +97,6 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         mapView.onSaveInstanceState(outState);
     }
-    */
+
 }
 
