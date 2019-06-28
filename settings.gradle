@@ -1,0 +1,4 @@
+include ':app', ':libandroid-navigation', ':libandroid-navigation-ui', ':app2'
+project(':libandroid-navigation').projectDir = new File('app/libs/libandroid-navigation')
+project(':libandroid-navigation-ui').projectDir = new File('app/libs/libandroid-navigation-ui')
+project(':app2').projectDir = new File('app/libs/mapbox-navigation-android/app')
