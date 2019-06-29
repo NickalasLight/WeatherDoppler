@@ -31,11 +31,6 @@
                 android:src="@mipmap/ic_launcher"
                 tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
         </com.mapbox.mapboxsdk.maps.MapView>
 
 
