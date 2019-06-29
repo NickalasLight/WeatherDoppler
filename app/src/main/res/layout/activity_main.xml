@@ -25,11 +25,17 @@
             mapbox:mapbox_cameraZoom="2" >
 
             <ImageView
-                android:id="@+id/dopplerimageView"
+                android:id="@+id/staticmapimageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@mipmap/ic_launcher"
                 tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <ImageView
+                android:id="@+id/dopplerimageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                mapbox:srcCompat="@mipmap/ic_launcher" />
 
         </com.mapbox.mapboxsdk.maps.MapView>
 
